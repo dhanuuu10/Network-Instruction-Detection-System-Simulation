@@ -1,0 +1,54 @@
+
+============================================================
+             NETWORK INTRUSION DETECTION SYSTEM
+                    INCIDENT REPORT
+============================================================
+
+REPORT INFORMATION
+------------------------------------------------------------
+Alert ID             : IDS-00088
+Generated On         : 2026-10-02 16:57:53
+
+ALERT DETAILS
+------------------------------------------------------------
+Event Timestamp      : 2026-10-02 17:08:42.575905
+Classification       : POTENTIAL INTRUSION
+Severity             : CRITICAL
+Risk Score           : 100/100
+Detection Method     : RULE + ANOMALY
+Alert Status         : NEW
+
+NETWORK INFORMATION
+------------------------------------------------------------
+Source IP            : 192.168.1.10
+Destination IP       : 192.168.1.22
+Source Port          : 48784
+Destination Port     : 445
+Protocol             : TCP
+
+DETECTION REASON
+------------------------------------------------------------
+High packet rate; High connection rate; High byte transfer rate; Destination port requires investigation; Traffic pattern identified as anomalous
+
+ANALYST NOTES
+------------------------------------------------------------
+This incident was generated from a synthetic network
+traffic simulation used for defensive cybersecurity
+education and IDS evaluation.
+
+The event should be investigated according to the
+classification, severity, risk score, and detection
+reason shown above.
+
+RECOMMENDED INVESTIGATION ACTIONS
+------------------------------------------------------------
+1. Review the source and destination information.
+2. Examine the detection reason.
+3. Review related network events.
+4. Validate whether the activity is expected or abnormal.
+5. Record investigation findings.
+6. Update the alert status after investigation.
+
+============================================================
+END OF INCIDENT REPORT
+============================================================
